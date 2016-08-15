@@ -192,9 +192,9 @@ public class CocoaToast {
         @Duration
         int duration = Toast.LENGTH_SHORT;
 
-        int width;
+        int width = 128;
 
-        int height;
+        int height = 128;
 
         public void setDefaultIcon(int defaultIcon) {
             this.defaultIcon = defaultIcon;
